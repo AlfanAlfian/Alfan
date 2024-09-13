@@ -1,0 +1,42 @@
+.home {
+    padding: 0rem 5%;
+}
+
+.home .box-container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.home .image {
+    text-align: center;
+    flex: 1 1 10rem;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .content h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.home .content h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+    text-transform: none;
+}
+
+.home .content p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
